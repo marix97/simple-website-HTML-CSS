@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background: #3f3f3f;
+    color: #000000;
+}
+
+header #page-header {
+    color: white;
+    text-decoration: none;
+    width: 49%;
+    display: inline-block
+}
+
+header h2 {
+    font-size: 16px;
+}
+
+header #main-navigation {
+    display: inline-block;
+    text-align: right;
+}
+
+header #main-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+header #main-navigation ul li {
+    display: inline-block;
+}
+
+header #main-navigation ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header #main-navigation ul li a:hover {
+    background: red;
+    border-radius: 3px;
+    transition: 1.0s ease all;
+}
+
+footer {
+    background: #3f3f3f;
+    color: white;
+    height: 70px;
+}
+
+footer .copyright-info {
+  text-align: center;
+  margin-left: 30px;
+}
+
+.hero {
+    min-height: 800px;
+    text-align: center;
+    background: #555;
+    background-image: url('../image/background.png');
+    background-size: cover;
+}
+
+.site-section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.site-section-inside {
+    width: 75%;
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-header h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #777;
+}
+
+.site-section-secondary {
+    background: #EFEFEF;
+}
+
+.about {
+    background: #DCCFEC;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.service-box {
+    display: inline-block;
+    width: 27%;
+    padding: 20px 30px;
+    line-height: 1;
+}
+
+.service-box img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.service-box h5 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 300px;
+    letter-spacing: 2px;
+}
